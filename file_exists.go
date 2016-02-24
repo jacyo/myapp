@@ -10,6 +10,7 @@ func FileExists(file string) bool {
 	return true
 }
 
+
 func main() {
     println(FileExists("file_exists.go"))
 }
